@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC00CA662560550800BBDA9D /* pompomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA652560550800BBDA9D /* pompomApp.swift */; };
+		EC00CA682560550800BBDA9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA672560550800BBDA9D /* ContentView.swift */; };
+		EC00CA6A2560550900BBDA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC00CA692560550900BBDA9D /* Assets.xcassets */; };
+		EC00CA6D2560550900BBDA9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC00CA6C2560550900BBDA9D /* Preview Assets.xcassets */; };
+		EC00CA782560550A00BBDA9D /* pompomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA772560550A00BBDA9D /* pompomTests.swift */; };
+		EC00CA832560550A00BBDA9D /* pompomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA822560550A00BBDA9D /* pompomUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC00CA742560550A00BBDA9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC00CA5A2560550800BBDA9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC00CA612560550800BBDA9D;
+			remoteInfo = pompom;
+		};
+		EC00CA7F2560550A00BBDA9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC00CA5A2560550800BBDA9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC00CA612560550800BBDA9D;
+			remoteInfo = pompom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC00CA622560550800BBDA9D /* pompom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pompom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC00CA652560550800BBDA9D /* pompomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pompomApp.swift; sourceTree = "<group>"; };
+		EC00CA672560550800BBDA9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC00CA692560550900BBDA9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC00CA6C2560550900BBDA9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC00CA6E2560550900BBDA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC00CA732560550A00BBDA9D /* pompomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pompomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC00CA772560550A00BBDA9D /* pompomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pompomTests.swift; sourceTree = "<group>"; };
+		EC00CA792560550A00BBDA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC00CA7E2560550A00BBDA9D /* pompomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pompomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC00CA822560550A00BBDA9D /* pompomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pompomUITests.swift; sourceTree = "<group>"; };
+		EC00CA842560550A00BBDA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC00CA5F2560550800BBDA9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC00CA702560550A00BBDA9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC00CA7B2560550A00BBDA9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC00CA592560550800BBDA9D = {
+			isa = PBXGroup;
+			children = (
+				EC00CA642560550800BBDA9D /* pompom */,
+				EC00CA762560550A00BBDA9D /* pompomTests */,
+				EC00CA812560550A00BBDA9D /* pompomUITests */,
+				EC00CA632560550800BBDA9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC00CA632560550800BBDA9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC00CA622560550800BBDA9D /* pompom.app */,
+				EC00CA732560550A00BBDA9D /* pompomTests.xctest */,
+				EC00CA7E2560550A00BBDA9D /* pompomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC00CA642560550800BBDA9D /* pompom */ = {
+			isa = PBXGroup;
+			children = (
+				EC00CA652560550800BBDA9D /* pompomApp.swift */,
+				EC00CA672560550800BBDA9D /* ContentView.swift */,
+				EC00CA692560550900BBDA9D /* Assets.xcassets */,
+				EC00CA6E2560550900BBDA9D /* Info.plist */,
+				EC00CA6B2560550900BBDA9D /* Preview Content */,
+			);
+			path = pompom;
+			sourceTree = "<group>";
+		};
+		EC00CA6B2560550900BBDA9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC00CA6C2560550900BBDA9D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC00CA762560550A00BBDA9D /* pompomTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC00CA772560550A00BBDA9D /* pompomTests.swift */,
+				EC00CA792560550A00BBDA9D /* Info.plist */,
+			);
+			path = pompomTests;
+			sourceTree = "<group>";
+		};
+		EC00CA812560550A00BBDA9D /* pompomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC00CA822560550A00BBDA9D /* pompomUITests.swift */,
+				EC00CA842560550A00BBDA9D /* Info.plist */,
+			);
+			path = pompomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC00CA612560550800BBDA9D /* pompom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC00CA872560550A00BBDA9D /* Build configuration list for PBXNativeTarget "pompom" */;
+			buildPhases = (
+				EC00CA5E2560550800BBDA9D /* Sources */,
+				EC00CA5F2560550800BBDA9D /* Frameworks */,
+				EC00CA602560550800BBDA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pompom;
+			productName = pompom;
+			productReference = EC00CA622560550800BBDA9D /* pompom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC00CA722560550A00BBDA9D /* pompomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC00CA8A2560550A00BBDA9D /* Build configuration list for PBXNativeTarget "pompomTests" */;
+			buildPhases = (
+				EC00CA6F2560550A00BBDA9D /* Sources */,
+				EC00CA702560550A00BBDA9D /* Frameworks */,
+				EC00CA712560550A00BBDA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC00CA752560550A00BBDA9D /* PBXTargetDependency */,
+			);
+			name = pompomTests;
+			productName = pompomTests;
+			productReference = EC00CA732560550A00BBDA9D /* pompomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC00CA7D2560550A00BBDA9D /* pompomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC00CA8D2560550A00BBDA9D /* Build configuration list for PBXNativeTarget "pompomUITests" */;
+			buildPhases = (
+				EC00CA7A2560550A00BBDA9D /* Sources */,
+				EC00CA7B2560550A00BBDA9D /* Frameworks */,
+				EC00CA7C2560550A00BBDA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC00CA802560550A00BBDA9D /* PBXTargetDependency */,
+			);
+			name = pompomUITests;
+			productName = pompomUITests;
+			productReference = EC00CA7E2560550A00BBDA9D /* pompomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC00CA5A2560550800BBDA9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					EC00CA612560550800BBDA9D = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					EC00CA722560550A00BBDA9D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = EC00CA612560550800BBDA9D;
+					};
+					EC00CA7D2560550A00BBDA9D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = EC00CA612560550800BBDA9D;
+					};
+				};
+			};
+			buildConfigurationList = EC00CA5D2560550800BBDA9D /* Build configuration list for PBXProject "pompom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC00CA592560550800BBDA9D;
+			productRefGroup = EC00CA632560550800BBDA9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC00CA612560550800BBDA9D /* pompom */,
+				EC00CA722560550A00BBDA9D /* pompomTests */,
+				EC00CA7D2560550A00BBDA9D /* pompomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC00CA602560550800BBDA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC00CA6D2560550900BBDA9D /* Preview Assets.xcassets in Resources */,
+				EC00CA6A2560550900BBDA9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC00CA712560550A00BBDA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC00CA7C2560550A00BBDA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC00CA5E2560550800BBDA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC00CA682560550800BBDA9D /* ContentView.swift in Sources */,
+				EC00CA662560550800BBDA9D /* pompomApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC00CA6F2560550A00BBDA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC00CA782560550A00BBDA9D /* pompomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC00CA7A2560550A00BBDA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC00CA832560550A00BBDA9D /* pompomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC00CA752560550A00BBDA9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC00CA612560550800BBDA9D /* pompom */;
+			targetProxy = EC00CA742560550A00BBDA9D /* PBXContainerItemProxy */;
+		};
+		EC00CA802560550A00BBDA9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC00CA612560550800BBDA9D /* pompom */;
+			targetProxy = EC00CA7F2560550A00BBDA9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC00CA852560550A00BBDA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC00CA862560550A00BBDA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC00CA882560550A00BBDA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"pompom/Preview Content\"";
+				DEVELOPMENT_TEAM = KKBS7TXTU8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = pompom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikflahavan.pompom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC00CA892560550A00BBDA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"pompom/Preview Content\"";
+				DEVELOPMENT_TEAM = KKBS7TXTU8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = pompom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikflahavan.pompom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC00CA8B2560550A00BBDA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKBS7TXTU8;
+				INFOPLIST_FILE = pompomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikflahavan.pompomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pompom.app/pompom";
+			};
+			name = Debug;
+		};
+		EC00CA8C2560550A00BBDA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKBS7TXTU8;
+				INFOPLIST_FILE = pompomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikflahavan.pompomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pompom.app/pompom";
+			};
+			name = Release;
+		};
+		EC00CA8E2560550A00BBDA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKBS7TXTU8;
+				INFOPLIST_FILE = pompomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikflahavan.pompomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pompom;
+			};
+			name = Debug;
+		};
+		EC00CA8F2560550A00BBDA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKBS7TXTU8;
+				INFOPLIST_FILE = pompomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikflahavan.pompomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pompom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC00CA5D2560550800BBDA9D /* Build configuration list for PBXProject "pompom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC00CA852560550A00BBDA9D /* Debug */,
+				EC00CA862560550A00BBDA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC00CA872560550A00BBDA9D /* Build configuration list for PBXNativeTarget "pompom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC00CA882560550A00BBDA9D /* Debug */,
+				EC00CA892560550A00BBDA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC00CA8A2560550A00BBDA9D /* Build configuration list for PBXNativeTarget "pompomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC00CA8B2560550A00BBDA9D /* Debug */,
+				EC00CA8C2560550A00BBDA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC00CA8D2560550A00BBDA9D /* Build configuration list for PBXNativeTarget "pompomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC00CA8E2560550A00BBDA9D /* Debug */,
+				EC00CA8F2560550A00BBDA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC00CA5A2560550800BBDA9D /* Project object */;
+}
