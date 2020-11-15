@@ -13,6 +13,7 @@
 		EC00CA6D2560550900BBDA9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC00CA6C2560550900BBDA9D /* Preview Assets.xcassets */; };
 		EC00CA782560550A00BBDA9D /* pompomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA772560550A00BBDA9D /* pompomTests.swift */; };
 		EC00CA832560550A00BBDA9D /* pompomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA822560550A00BBDA9D /* pompomUITests.swift */; };
+		ECE76FE12561B65F00BCDDE2 /* PreviewProvider+previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE76FE02561B65F00BCDDE2 /* PreviewProvider+previews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		EC00CA7E2560550A00BBDA9D /* pompomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pompomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC00CA822560550A00BBDA9D /* pompomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pompomUITests.swift; sourceTree = "<group>"; };
 		EC00CA842560550A00BBDA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE76FE02561B65F00BCDDE2 /* PreviewProvider+previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PreviewProvider+previews.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				EC00CA692560550900BBDA9D /* Assets.xcassets */,
 				EC00CA6E2560550900BBDA9D /* Info.plist */,
 				EC00CA6B2560550900BBDA9D /* Preview Content */,
+				ECE76FE02561B65F00BCDDE2 /* PreviewProvider+previews.swift */,
 			);
 			path = pompom;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				EC00CA682560550800BBDA9D /* ContentView.swift in Sources */,
 				EC00CA662560550800BBDA9D /* pompomApp.swift in Sources */,
+				ECE76FE12561B65F00BCDDE2 /* PreviewProvider+previews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
