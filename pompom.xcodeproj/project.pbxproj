@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC00CA662560550800BBDA9D /* pompomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA652560550800BBDA9D /* pompomApp.swift */; };
-		EC00CA682560550800BBDA9D /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA672560550800BBDA9D /* BackgroundView.swift */; };
+		EC00CA682560550800BBDA9D /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA672560550800BBDA9D /* Background.swift */; };
 		EC00CA6A2560550900BBDA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC00CA692560550900BBDA9D /* Assets.xcassets */; };
 		EC00CA6D2560550900BBDA9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC00CA6C2560550900BBDA9D /* Preview Assets.xcassets */; };
 		EC00CA782560550A00BBDA9D /* pompomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA772560550A00BBDA9D /* pompomTests.swift */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		EC00CA622560550800BBDA9D /* pompom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pompom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC00CA652560550800BBDA9D /* pompomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pompomApp.swift; sourceTree = "<group>"; };
-		EC00CA672560550800BBDA9D /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		EC00CA672560550800BBDA9D /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		EC00CA692560550900BBDA9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC00CA6C2560550900BBDA9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC00CA6E2560550900BBDA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 		EC26C2C12561BFAD00E8FF8A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EC00CA672560550800BBDA9D /* BackgroundView.swift */,
+				EC00CA672560550800BBDA9D /* Background.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC00CA682560550800BBDA9D /* BackgroundView.swift in Sources */,
+				EC00CA682560550800BBDA9D /* Background.swift in Sources */,
 				ECE76FEC2561B80E00BCDDE2 /* Theme.swift in Sources */,
 				EC00CA662560550800BBDA9D /* pompomApp.swift in Sources */,
 				ECE76FE12561B65F00BCDDE2 /* PreviewProvider+previews.swift in Sources */,

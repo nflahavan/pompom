@@ -1,5 +1,5 @@
 //
-//  BackgroundView.swift
+//  Background.swift
 //  pompom
 //
 //  Created by Niklas Flahavan on 11/14/20.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BackgroundView: View {
+struct Background: View {
   var body: some View {
     VStack {
       LinearGradient(
@@ -27,8 +27,8 @@ struct BackgroundView: View {
   }
 }
 
-struct BackgroundView_Previews: PreviewProvider {
+struct Background_Previews: PreviewProvider {
   static var previews: some View {
-    previews(of: BackgroundView())
+    previews(of: Background())
   }
 }

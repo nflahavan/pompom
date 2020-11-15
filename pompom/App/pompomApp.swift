@@ -9,9 +9,9 @@ import SwiftUI
 
 @main
 struct pompomApp: App {
-    var body: some Scene {
-        WindowGroup {
-            BackgroundView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      Background()
     }
+  }
 }
