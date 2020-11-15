@@ -99,13 +99,12 @@
 		EC00CA642560550800BBDA9D /* pompom */ = {
 			isa = PBXGroup;
 			children = (
-				EC00CA652560550800BBDA9D /* pompomApp.swift */,
-				EC00CA672560550800BBDA9D /* BackgroundView.swift */,
-				EC00CA692560550900BBDA9D /* Assets.xcassets */,
 				EC00CA6E2560550900BBDA9D /* Info.plist */,
+				EC00CA692560550900BBDA9D /* Assets.xcassets */,
+				EC26C2C02561BFA300E8FF8A /* App */,
+				EC26C2C22561BFCC00E8FF8A /* Extensions */,
 				EC00CA6B2560550900BBDA9D /* Preview Content */,
-				ECE76FE02561B65F00BCDDE2 /* PreviewProvider+previews.swift */,
-				ECE76FEB2561B80E00BCDDE2 /* Theme.swift */,
+				EC26C2C12561BFAD00E8FF8A /* Views */,
 			);
 			path = pompom;
 			sourceTree = "<group>";
@@ -134,6 +133,31 @@
 				EC00CA842560550A00BBDA9D /* Info.plist */,
 			);
 			path = pompomUITests;
+			sourceTree = "<group>";
+		};
+		EC26C2C02561BFA300E8FF8A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EC00CA652560550800BBDA9D /* pompomApp.swift */,
+				ECE76FEB2561B80E00BCDDE2 /* Theme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EC26C2C12561BFAD00E8FF8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC00CA672560550800BBDA9D /* BackgroundView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC26C2C22561BFCC00E8FF8A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECE76FE02561B65F00BCDDE2 /* PreviewProvider+previews.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
