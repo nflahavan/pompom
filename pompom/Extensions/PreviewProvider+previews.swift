@@ -18,7 +18,5 @@ extension PreviewProvider {
       .previewDevice("iPhone 12 Pro")
     view
       .previewDevice("iPhone 12 Pro Max")
-    view
-      .previewDevice("iPad Pro (12.9-inch) (4th generation)")
   }
 }

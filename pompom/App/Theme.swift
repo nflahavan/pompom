@@ -12,4 +12,8 @@ enum Theme {
   static let red: Color = .init("red_theme")
   static let green: Color = .init("green_theme")
   static let yellow: Color = .init("yellow_theme")
+
+  static func font(size: CGFloat) -> Font {
+    .custom("Cocon-Regular", size: size)
+  }
 }
