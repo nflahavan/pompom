@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		EC00CA662560550800BBDA9D /* pompomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA652560550800BBDA9D /* pompomApp.swift */; };
-		EC00CA682560550800BBDA9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA672560550800BBDA9D /* ContentView.swift */; };
+		EC00CA682560550800BBDA9D /* BackgroundLinear.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA672560550800BBDA9D /* BackgroundLinear.swift */; };
 		EC00CA6A2560550900BBDA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC00CA692560550900BBDA9D /* Assets.xcassets */; };
 		EC00CA6D2560550900BBDA9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC00CA6C2560550900BBDA9D /* Preview Assets.xcassets */; };
 		EC00CA782560550A00BBDA9D /* pompomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA772560550A00BBDA9D /* pompomTests.swift */; };
 		EC00CA832560550A00BBDA9D /* pompomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC00CA822560550A00BBDA9D /* pompomUITests.swift */; };
+		EC26C2CA2561C16200E8FF8A /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC26C2C92561C16200E8FF8A /* Splash.swift */; };
+		EC42823C25621F1600C178DB /* Cocon-Regular-Font.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC42823B25621F1600C178DB /* Cocon-Regular-Font.otf */; };
+		EC4282442562276100C178DB /* BackgroundRadial.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4282432562276100C178DB /* BackgroundRadial.swift */; };
+		EC428249256239DE00C178DB /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC428248256239DE00C178DB /* Circles.swift */; };
+		ECE76FE12561B65F00BCDDE2 /* PreviewProvider+previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE76FE02561B65F00BCDDE2 /* PreviewProvider+previews.swift */; };
+		ECE76FEC2561B80E00BCDDE2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE76FEB2561B80E00BCDDE2 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +41,7 @@
 /* Begin PBXFileReference section */
 		EC00CA622560550800BBDA9D /* pompom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pompom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC00CA652560550800BBDA9D /* pompomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pompomApp.swift; sourceTree = "<group>"; };
-		EC00CA672560550800BBDA9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC00CA672560550800BBDA9D /* BackgroundLinear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundLinear.swift; sourceTree = "<group>"; };
 		EC00CA692560550900BBDA9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC00CA6C2560550900BBDA9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC00CA6E2560550900BBDA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +51,12 @@
 		EC00CA7E2560550A00BBDA9D /* pompomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pompomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC00CA822560550A00BBDA9D /* pompomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pompomUITests.swift; sourceTree = "<group>"; };
 		EC00CA842560550A00BBDA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC26C2C92561C16200E8FF8A /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		EC42823B25621F1600C178DB /* Cocon-Regular-Font.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cocon-Regular-Font.otf"; sourceTree = "<group>"; };
+		EC4282432562276100C178DB /* BackgroundRadial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRadial.swift; sourceTree = "<group>"; };
+		EC428248256239DE00C178DB /* Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
+		ECE76FE02561B65F00BCDDE2 /* PreviewProvider+previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PreviewProvider+previews.swift"; sourceTree = "<group>"; };
+		ECE76FEB2561B80E00BCDDE2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +107,13 @@
 		EC00CA642560550800BBDA9D /* pompom */ = {
 			isa = PBXGroup;
 			children = (
-				EC00CA652560550800BBDA9D /* pompomApp.swift */,
-				EC00CA672560550800BBDA9D /* ContentView.swift */,
-				EC00CA692560550900BBDA9D /* Assets.xcassets */,
 				EC00CA6E2560550900BBDA9D /* Info.plist */,
+				EC42823B25621F1600C178DB /* Cocon-Regular-Font.otf */,
+				EC00CA692560550900BBDA9D /* Assets.xcassets */,
+				EC26C2C02561BFA300E8FF8A /* App */,
+				EC26C2C22561BFCC00E8FF8A /* Extensions */,
 				EC00CA6B2560550900BBDA9D /* Preview Content */,
+				EC26C2C12561BFAD00E8FF8A /* Views */,
 			);
 			path = pompom;
 			sourceTree = "<group>";
@@ -128,6 +142,34 @@
 				EC00CA842560550A00BBDA9D /* Info.plist */,
 			);
 			path = pompomUITests;
+			sourceTree = "<group>";
+		};
+		EC26C2C02561BFA300E8FF8A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EC00CA652560550800BBDA9D /* pompomApp.swift */,
+				ECE76FEB2561B80E00BCDDE2 /* Theme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EC26C2C12561BFAD00E8FF8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC00CA672560550800BBDA9D /* BackgroundLinear.swift */,
+				EC26C2C92561C16200E8FF8A /* Splash.swift */,
+				EC4282432562276100C178DB /* BackgroundRadial.swift */,
+				EC428248256239DE00C178DB /* Circles.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC26C2C22561BFCC00E8FF8A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ECE76FE02561B65F00BCDDE2 /* PreviewProvider+previews.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC42823C25621F1600C178DB /* Cocon-Regular-Font.otf in Resources */,
 				EC00CA6D2560550900BBDA9D /* Preview Assets.xcassets in Resources */,
 				EC00CA6A2560550900BBDA9D /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC00CA682560550800BBDA9D /* ContentView.swift in Sources */,
+				EC00CA682560550800BBDA9D /* BackgroundLinear.swift in Sources */,
+				EC428249256239DE00C178DB /* Circles.swift in Sources */,
+				ECE76FEC2561B80E00BCDDE2 /* Theme.swift in Sources */,
+				EC4282442562276100C178DB /* BackgroundRadial.swift in Sources */,
 				EC00CA662560550800BBDA9D /* pompomApp.swift in Sources */,
+				ECE76FE12561B65F00BCDDE2 /* PreviewProvider+previews.swift in Sources */,
+				EC26C2CA2561C16200E8FF8A /* Splash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.flahavan.pompom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,7 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.flahavan.pompom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct pompomApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      Splash()
+        .background(BackgroundRadial().ignoresSafeArea())
+//      DEMO()
     }
+  }
 }
