@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Circles: View {
   let fontSize: CGFloat
+  let frameName: AnyHashable
   
   var body: some View {
     VStack {
@@ -24,11 +25,11 @@ struct Circles: View {
     .background(
       ZStack {
         Circle()
-          .scale(2.5)
+          .scale(2.7)
           .foregroundColor(Theme.red)
           .shadow(color: .black, radius: 7)
         Circle()
-          .scale(2)
+          .scale(2.1)
           .foregroundColor(Theme.green)
           .shadow(color: .black, radius: 7)
         Circle()
@@ -37,11 +38,31 @@ struct Circles: View {
           .shadow(color: .black, radius: 7)
       }
     )
+    .preference(
+      key: CirclesPreferenceKey.self,
+      value: CirclesPreferenceData(
+        offset: -fontSize * 0.125
+      )
+    )
   }
+}
+
+struct CirclesPreferenceKey: PreferenceKey {
+  typealias Value = CirclesPreferenceData
+  
+  static var defaultValue: CirclesPreferenceData = .init(offset: .zero)
+  
+  static func reduce(value: inout CirclesPreferenceData, nextValue: () -> CirclesPreferenceData) {
+    value = nextValue()
+  }
+}
+
+struct CirclesPreferenceData: Equatable {
+  let offset: CGFloat
 }
 
 struct Circles_Previews: PreviewProvider {
   static var previews: some View {
-    previews(of: Circles(fontSize: 80))
+    previews(of: Circles(fontSize: 80, frameName: "previews"))
   }
 }
