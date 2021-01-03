@@ -9,11 +9,21 @@ import SwiftUI
 
 @main
 struct pompomApp: App {
+  
+  @State private var showSplash = true
+  private var splashTimer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+  
   var body: some Scene {
     WindowGroup {
-      Splash()
-        .background(BackgroundRadial().ignoresSafeArea())
-//      DEMO()
+      if showSplash {
+        Splash()
+          .background(BackgroundRadial().ignoresSafeArea())
+          .onReceive(splashTimer, perform: { input in
+            showSplash = false
+          })
+      } else {
+        Text("Hi Nik")
+      }
     }
   }
 }
