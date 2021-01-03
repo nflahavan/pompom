@@ -11,7 +11,7 @@ import SwiftUI
 struct pompomApp: App {
   
   @State private var showSplash = true
-  private var splashTimer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
+  private var splashTimer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
   
   var body: some Scene {
     WindowGroup {
@@ -22,7 +22,7 @@ struct pompomApp: App {
             showSplash = false
           })
       } else {
-        Text("Hi Nik")
+        FocusView()
       }
     }
   }
