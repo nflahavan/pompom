@@ -19,6 +19,7 @@
 		EC428249256239DE00C178DB /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC428248256239DE00C178DB /* Circles.swift */; };
 		ECE76FE12561B65F00BCDDE2 /* PreviewProvider+previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE76FE02561B65F00BCDDE2 /* PreviewProvider+previews.swift */; };
 		ECE76FEC2561B80E00BCDDE2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE76FEB2561B80E00BCDDE2 /* Theme.swift */; };
+		F60691372593F225005421DD /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60691362593F225005421DD /* FocusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		EC428248256239DE00C178DB /* Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
 		ECE76FE02561B65F00BCDDE2 /* PreviewProvider+previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PreviewProvider+previews.swift"; sourceTree = "<group>"; };
 		ECE76FEB2561B80E00BCDDE2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F60691362593F225005421DD /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		EC26C2C02561BFA300E8FF8A /* App */ = {
 			isa = PBXGroup;
 			children = (
+				F606912D2593F1FA005421DD /* Focus */,
 				EC00CA652560550800BBDA9D /* pompomApp.swift */,
 				ECE76FEB2561B80E00BCDDE2 /* Theme.swift */,
 			);
@@ -170,6 +173,14 @@
 				ECE76FE02561B65F00BCDDE2 /* PreviewProvider+previews.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F606912D2593F1FA005421DD /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				F60691362593F225005421DD /* FocusView.swift */,
+			);
+			path = Focus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +320,7 @@
 				EC00CA662560550800BBDA9D /* pompomApp.swift in Sources */,
 				ECE76FE12561B65F00BCDDE2 /* PreviewProvider+previews.swift in Sources */,
 				EC26C2CA2561C16200E8FF8A /* Splash.swift in Sources */,
+				F60691372593F225005421DD /* FocusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +490,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.flahavan.pompom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -500,7 +512,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.flahavan.pompom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

@@ -34,6 +34,9 @@ struct Splash: View {
 
 struct Splash_Previews: PreviewProvider {
   static var previews: some View {
-    previews(of: Splash())
+    previews(
+      of: Splash()
+        .background(BackgroundRadial().ignoresSafeArea())
+    )
   }
 }
