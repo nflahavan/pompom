@@ -20,6 +20,7 @@
 		ECE76FE12561B65F00BCDDE2 /* PreviewProvider+previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE76FE02561B65F00BCDDE2 /* PreviewProvider+previews.swift */; };
 		ECE76FEC2561B80E00BCDDE2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE76FEB2561B80E00BCDDE2 /* Theme.swift */; };
 		F60691372593F225005421DD /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60691362593F225005421DD /* FocusView.swift */; };
+		F64CA5B328FD0924000DB983 /* CircleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64CA5B228FD0924000DB983 /* CircleButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		ECE76FE02561B65F00BCDDE2 /* PreviewProvider+previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PreviewProvider+previews.swift"; sourceTree = "<group>"; };
 		ECE76FEB2561B80E00BCDDE2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		F60691362593F225005421DD /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		F64CA5B228FD0924000DB983 /* CircleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				F606912D2593F1FA005421DD /* Focus */,
 				EC00CA652560550800BBDA9D /* pompomApp.swift */,
 				ECE76FEB2561B80E00BCDDE2 /* Theme.swift */,
+				F64CA5B228FD0924000DB983 /* CircleButtonStyle.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				EC00CA682560550800BBDA9D /* BackgroundLinear.swift in Sources */,
 				EC428249256239DE00C178DB /* Circles.swift in Sources */,
 				ECE76FEC2561B80E00BCDDE2 /* Theme.swift in Sources */,
+				F64CA5B328FD0924000DB983 /* CircleButtonStyle.swift in Sources */,
 				EC4282442562276100C178DB /* BackgroundRadial.swift in Sources */,
 				EC00CA662560550800BBDA9D /* pompomApp.swift in Sources */,
 				ECE76FE12561B65F00BCDDE2 /* PreviewProvider+previews.swift in Sources */,

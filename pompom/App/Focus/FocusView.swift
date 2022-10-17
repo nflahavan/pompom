@@ -12,8 +12,14 @@ struct FocusView: View {
     ZStack {
       VStack {
         Text("focus.")
+          .kerning(2.9)
+          .font(Theme.font(size: 32))
+          .foregroundColor(Theme.yellow)
         Spacer()
         Text("25:00")
+          .kerning(2.9)
+          .font(Theme.font(size: 32))
+          .foregroundColor(Theme.yellow)
         Spacer()
         HStack {
           Button("play") {
@@ -63,6 +69,9 @@ struct FocusView: View {
 
 struct FocusView_Previews: PreviewProvider {
   static var previews: some View {
-    FocusView()
+    previews(
+      of: FocusView()
+        .background(BackgroundRadial().ignoresSafeArea())
+    )
   }
 }
